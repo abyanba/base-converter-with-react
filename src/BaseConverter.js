@@ -124,7 +124,7 @@ function BaseConverter() {
           <input type="text" id="hex-inp" className="w-full bg-background text-blue rounded-lg text-center" value={hexValue} onChange={handleHexInputChange} />
         </div>
       </div>
-      <p className="text-red italic text-center m-3">{errorMsg}</p>
+      <p className="text-red italic text-center mt-3">{errorMsg}</p>
     </div>
   );
 }
